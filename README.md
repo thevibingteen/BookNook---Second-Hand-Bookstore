@@ -21,17 +21,7 @@ BookNook is a frontend web application for a second-hand bookstore, developed as
 - **Icons**: None (Pure CSS design)
 - **Fonts**: System fonts for better performance
 
-## 📁 Project Structure
 
-booknook/
-│
-├── index.html # Homepage with hero section & featured books
-├── books.html # All books listing page with filters
-├── reviews.html # Customer reviews page (placeholder)
-├── about.html # About us page (placeholder)
-├── styles.css # All styling and responsive design
-├── script.js # Main JavaScript functionality
-└── books.js # Books page specific functionality
 
 
 
