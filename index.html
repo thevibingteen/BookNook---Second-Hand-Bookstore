@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BookVerse - Second Hand Bookstore</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <h2>BookVerse</h2>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#home" class="active">Home</a></li>
+                <li><a href="#books">Books</a></li>
+                <li><a href="#categories">Categories</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="nav-actions">
+                <a href="#cart" class="cart-btn">Cart (0)</a>
+                <a href="#login" class="login-btn">Login</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Discover Your Next Favorite Book</h1>
+            <p>Quality second-hand books at affordable prices</p>
+            <div class="search-box">
+                <input type="text" placeholder="Search for books, authors, or genres...">
+                <button type="button">Search</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Books Section -->
+    <section id="books" class="featured-books">
+        <div class="container">
+            <h2>Featured Books</h2>
+            <div class="books-grid">
+                <!-- Book 1 -->
+                <div class="book-card">
+                    <div class="book-image">
+                        <div class="book-placeholder">Book Cover</div>
+                    </div>
+                    <div class="book-info">
+                        <h3>To Kill a Mockingbird</h3>
+                        <p class="author">by Harper Lee</p>
+                        <p class="price">₹299</p>
+                        <p class="condition">Condition: Good</p>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                </div>
+
+                <!-- Book 2 -->
+                <div class="book-card">
+                    <div class="book-image">
+                        <div class="book-placeholder">Book Cover</div>
+                    </div>
+                    <div class="book-info">
+                        <h3>1984</h3>
+                        <p class="author">by George Orwell</p>
+                        <p class="price">₹249</p>
+                        <p class="condition">Condition: Very Good</p>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                </div>
+
+                <!-- Book 3 -->
+                <div class="book-card">
+                    <div class="book-image">
+                        <div class="book-placeholder">Book Cover</div>
+                    </div>
+                    <div class="book-info">
+                        <h3>The Great Gatsby</h3>
+                        <p class="author">by F. Scott Fitzgerald</p>
+                        <p class="price">₹199</p>
+                        <p class="condition">Condition: Good</p>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                </div>
+
+                <!-- Book 4 -->
+                <div class="book-card">
+                    <div class="book-image">
+                        <div class="book-placeholder">Book Cover</div>
+                    </div>
+                    <div class="book-info">
+                        <h3>A Brief History of Time</h3>
+                        <p class="author">by Stephen Hawking</p>
+                        <p class="price">₹399</p>
+                        <p class="condition">Condition: Excellent</p>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Categories Section -->
+    <section id="categories" class="categories">
+        <div class="container">
+            <h2>Browse Categories</h2>
+            <div class="categories-grid">
+                <div class="category-card">
+                    <h3>Fiction</h3>
+                    <p>Explore imaginary worlds and stories</p>
+                    <span class="book-count">245 books</span>
+                </div>
+                <div class="category-card">
+                    <h3>Science</h3>
+                    <p>Discover the universe and technology</p>
+                    <span class="book-count">189 books</span>
+                </div>
+                <div class="category-card">
+                    <h3>History</h3>
+                    <p>Learn from the past events</p>
+                    <span class="book-count">156 books</span>
+                </div>
+                <div class="category-card">
+                    <h3>Biography</h3>
+                    <p>Real life inspiring stories</p>
+                    <span class="book-count">98 books</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2>About BookVerse</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <h3>Your Favorite Second-Hand Bookstore</h3>
+                    <p>BookVerse is dedicated to creating a platform for book lovers to buy and sell quality second-hand books. We believe in sustainable reading and making books accessible to everyone.</p>
+                    <div class="features">
+                        <div class="feature">
+                            <h4>Quality Books</h4>
+                            <p>All books are carefully inspected for quality</p>
+                        </div>
+                        <div class="feature">
+                            <h4>Affordable Prices</h4>
+                            <p>Get great books at fraction of the cost</p>
+                        </div>
+                        <div class="feature">
+                            <h4>Easy Shopping</h4>
+                            <p>Simple and intuitive browsing experience</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Get in Touch</h3>
+                    <p>Have questions? We'd love to hear from you!</p>
+                    <div class="contact-details">
+                        <p>📧 Email: xyz</p>
+                        <p>📞 Phone: xyz</p>
+                        <p>📍 Address: xyz</p>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <h3>Send us a Message</h3>
+                    <form>
+                        <input type="text" placeholder="Your Name" required>
+                        <input type="email" placeholder="Your Email" required>
+                        <textarea placeholder="Your Message" rows="5" required></textarea>
+                        <button type="submit">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>BookVerse</h3>
+                    <p>Your favorite second-hand bookstore for quality used books at affordable prices.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#books">Books</a></li>
+                        <li><a href="#categories">Categories</a></li>
+                        <li><a href="#about">About</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact Info</h4>
+                    <div class="contact-info-footer">
+                        <p>📧 Email: xyz</p>
+                        <p>📞 Phone: xyz</p>
+                        <p>📍 Address: xyz</p>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 BookVerse. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
