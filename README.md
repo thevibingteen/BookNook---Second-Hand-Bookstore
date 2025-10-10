@@ -1,10 +1,10 @@
-# BookNook - Second Hand Bookstore
+# BookVerse - Second Hand Bookstore
 
 A student project for a second-hand bookstore website built with HTML, CSS, and JavaScript.
 
 ## 📚 About the Project
 
-BookNook is a frontend web application for a second-hand bookstore, developed as a student project. This is the first phase of development focusing on the user interface and basic functionality.
+BoookVerse is a frontend web application for a second-hand bookstore, developed as a student project. This is the first phase of development focusing on the user interface and basic functionality.
 
 ### 🎯 Project Features (Phase 1)
 
@@ -16,7 +16,7 @@ BookNook is a frontend web application for a second-hand bookstore, developed as
 
 ## 🛠️ Technologies Used
 
-- **Frontend**: HTML5, CSS3, JavaScript (ES6+)
+- **Frontend**: HTML5, CSS
 - **Styling**: CSS Grid, Flexbox, Media Queries
 - **Icons**: None (Pure CSS design)
 - **Fonts**: System fonts for better performance
